@@ -21,15 +21,12 @@ public boolean removeBook(String isbn) {
     // Find the book
     // Shift all books after it to the left (no gaps!)
     // Decrement bookCount
-    // Return true/false
-}
-for (int i = position; i < bookCount - 1; i++) {
+    // Return true/false}
+ for (int i = position; i < bookCount - 1; i++) {
     books[i] = books[i + 1];
-}
-public void displayAllBooks() {
+ }
+ public void displayAllBooks() {
     // Show count: "Library has X of Y books"
     // Print each book (only up to bookCount)
     // Handle empty library case
-}
-
 }
