@@ -7,6 +7,17 @@ public class TestList {
         myList.add("objeto4");
         myList.add("objeto5");
         System.out.println(myList);
-    }   
+        myList.delete(2);
+        System.out.println(myList);
+    }  
+    
+    
+
+
+
+
+
     
 }
+
+

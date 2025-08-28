@@ -38,7 +38,27 @@ public class LinkedList {
             size++;
             iter = iter.getNextnNode();
         }
-        return size;
-
+         return size;
     }
+
+    public void delete(int index) {
+        Node iter = head;
+        int i = 0;
+        while (iter != null) {
+            if (i +1 == index - 1)  {
+                iter.setNextnNode(iter.getNextnNode().getNextnNode());
+                break;
+                
+            }else {
+                iter = iter.getNextnNode();
+                i++;
+            }
+        }
+     
+    }
+
+
+
+
+
 }
