@@ -4,7 +4,13 @@ public class TestMyarray {
         myArray.add("objeto 1");
         myArray.add("objeto 2");
         myArray.add("objeto 3");
-        //myArrays.add("objeto 4");
+        myArray.add("objeto 4");
+        myArray.add("objeto 5");
+        myArray.add("objeto 6");
+        myArray.add("objeto 7");
+        myArray.add("objeto 8");
+        myArray.add("objeto 9");
+        myArray.add("objeto 10");
         System.out.println(myArray);
     }
     

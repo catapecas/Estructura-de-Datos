@@ -6,18 +6,12 @@ public class MyArrayList{
     }
 
     public void add (Object object) {
-        boolean addes = false;
-        for ( int i= 0; i<myArray.length; i++){
-            if(myArray[i]==null){
-                myArray[i]= object;
-              break;  
-            }
-        }
-
-        if(!addes) {
+        if (size ==myArray.length) {
             increaseSize();
-            myArray[myArray.length / 2] = object; // Add to the new half of the array
+            
         }
+        myArray[size] = object;
+        size ++;
     }
     public String toString(){
         String returnString = "";
