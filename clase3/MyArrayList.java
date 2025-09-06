@@ -1,17 +1,17 @@
 public class MyArrayList{
     private Object[] myArray;
+    private int size = 0;
 
-    public MyArrayList(int size){
-        myArray = new Object [size];
+    public MyArrayList(int initialCapacity){
+        myArray = new Object [initialCapacity];
     }
 
     public void add (Object object) {
-        if (size ==myArray.length) {
+        if (size == myArray.length) {
             increaseSize();
-            
         }
         myArray[size] = object;
-        size ++;
+        size++;
     }
     public String toString(){
         String returnString = "";

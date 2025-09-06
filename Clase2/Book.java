@@ -1,37 +1,37 @@
+// Clase que representa un libro con id, título y autor
 public class Book {
-    private String title;
-    private String author;
-    private String isbn;
 
-    public Book(String title, String author, String isbn) {
+    // Identificador único del libro
+    private String id;
+    // Título del libro
+    private String title;
+    // Autor del libro
+    private String author;
+
+    // Constructor: inicializa los atributos del libro
+    public Book (String id, String title, String author){
+        this.id = id;
         this.title = title;
         this.author = author;
-        this.isbn = isbn;
     }
 
-    public String getTitle() {
+    // Devuelve el id del libro
+    public String getId(){
+        return id;
+    }
+
+    // Devuelve el título del libro
+    public String getTitle(){
         return title;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getAuthor() {
+    // Devuelve el autor del libro
+    public String getAuthor(){
         return author;
     }
 
-    public void setAuthor(String author) {
-        this.author = author;
+    // Devuelve una representación en texto del libro
+    public String toString(){
+        return "Book [|id: " + id + " |Title: " + title + " |Author: " + author + "]";
     }
-
-    public String getIsbn() {
-        return isbn;
-    }
-
-    public void setIsbn(String isbn) {
-        this.isbn = isbn;
-    }
-    
-    
 }
