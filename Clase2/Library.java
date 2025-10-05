@@ -29,7 +29,7 @@ public class Library<T extends Book> {
     }
 
     // Elimina un libro por índice (recibido como String)
-    public void delete(int index) {
+    public boolean delete(int index) {
         int idx = Integer.parseInt(index);
         // Desplaza los libros para llenar el hueco
         for (int i = idx; i < size - 1; i++) {
