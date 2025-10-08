@@ -1,4 +1,4 @@
-package Clase5Biblioteca;
+
 
 /**
  * Clase que representa un libro dentro de la biblioteca.

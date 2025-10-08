@@ -1,4 +1,4 @@
-package Clase5Biblioteca;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -14,7 +14,7 @@ import java.util.Scanner;
  * Uso:
  * Ejecuta el método main para iniciar la aplicación y navegar por los menús.
  */
-public class LibraryUI {
+public class LibraryUl {
 
     /**
      * Método principal que inicia la aplicación de la biblioteca.
